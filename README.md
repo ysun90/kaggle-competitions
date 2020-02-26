@@ -1,5 +1,5 @@
-# kaggle-nlp-getting-started
+# Kaggle Competitions
 
-Kaggle Competition: Real or Not? NLP with Disaster Tweets 
+## 1. Real or Not? NLP with Disaster Tweets 
 
 Predict which Tweets are about real disasters and which ones are not
