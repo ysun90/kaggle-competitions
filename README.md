@@ -5,6 +5,6 @@
 Predict which Tweets are about real disasters and which ones are not
 
 
-### 2a. [M5 Forecasting - Accuracy](https://github.com/ysun90/kaggle-competitions/tree/master/m5-forecasting-accuracy)
+### 2a. [M5 Forecasting - Accuracy](https://github.com/ysun90/kaggle-competitions/tree/master/m5-forecasting)
 
 Estimate the unit sales of Walmart retail goods
