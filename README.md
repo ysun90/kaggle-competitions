@@ -11,6 +11,8 @@ Predict which Tweets are about real disasters and which ones are not
 
 Estimate the unit sales of Walmart retail goods
 
+Download datasets: `kaggle competitions download -c m5-forecasting-accuracy`
+
 
 ### 3. [Tweet Sentiment Extraction](https://github.com/ysun90/kaggle-competitions/tree/master/tweet-sentiment-extraction)
 
