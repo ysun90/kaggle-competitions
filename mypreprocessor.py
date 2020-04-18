@@ -1,6 +1,44 @@
 """
-This module inculdes classes and functions in data preprocessng.
+This module inculdes functions in data preprocessng.
 """
+
+import os
+import re
+import string
+
+
+def remove_url(text):
+    """Remove URL in the text."""
+    url = re.compile(r'https?://\S+|www\.\S+')
+    return url.sub(r'', text)
+
+
+def remove_html(text):
+    """Remove HTML tags in the text."""
+    html = re.compile(r'<.*?>')
+    return html.sub(r'', text)
+
+
+def remove_emoji(text):
+    emoji_pattern = re.compile("["
+                           u"\U0001F600-\U0001F64F"  # emoticons
+                           u"\U0001F300-\U0001F5FF"  # symbols & pictographs
+                           u"\U0001F680-\U0001F6FF"  # transport&map symbols
+                           u"\U0001F1E0-\U0001F1FF"  # flags (iOS)
+                           u"\U00002702-\U000027B0"
+                           u"\U000024C2-\U0001F251"
+                           "]+", flags=re.UNICODE)
+    return emoji_pattern.sub(r'', text)
+
+
+def remove_punctuation(text):
+    """Remove punctuations in text."""
+    # replacing the punctuations with no space, 
+    # which in effect deletes the punctuation marks 
+    table = str.maketrans('', '', string.punctuation)
+    # return the text stripped of punctuation marks
+    return text.translate(table)
+
 
 def unslang(text):
     """Unslang abbreviations to words."""
