@@ -17,3 +17,8 @@ Download datasets: `kaggle competitions download -c m5-forecasting-accuracy`
 ### 3. [Tweet Sentiment Extraction](https://github.com/ysun90/kaggle-competitions/tree/master/tweet-sentiment-extraction)
 
 Extract support phrases for sentiment labels
+
+
+### Useful CLI
+List competitions: `kaggle competitions list`
+Download notebook: `kaggle kernels pull {username}/{kernalname} -p {/path/dest}`
