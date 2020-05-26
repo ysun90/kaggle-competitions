@@ -1,8 +1,8 @@
 ## Kaggle Competitions
 
 ### Useful CLI
-List competitions: `kaggle competitions list`
-Download notebook: `kaggle kernels pull {username}/{kernalname} -p {/path/dest}`
+- List competitions: `kaggle competitions list`
+- Download notebook: `kaggle kernels pull {username}/{kernalname} -p {/path/dest}`
 
 
 ### 1. [Real or Not? NLP with Disaster Tweets](https://github.com/ysun90/kaggle-competitions/tree/master/nlp-getting-started) 
